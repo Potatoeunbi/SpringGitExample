@@ -1,0 +1,7 @@
+version:'3.8'
+services:
+  spring-git-images:
+    build:.
+    container_name:spring-git-container
+    ports:
+      -"8080:8080"
