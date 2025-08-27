@@ -15,7 +15,7 @@ public class HomeController {
 	
 	@GetMapping("/hello")
 	public String hello(@RequestParam(required=false) String name, Model model) {
-		model.addAttribute("greetings", "Hello~~ eunbi~ github actions test!"+name);
+		model.addAttribute("greetings", "Hello~~!! eunbi~ github actions test!"+name);
 		return "hello";
 	}	
 }
